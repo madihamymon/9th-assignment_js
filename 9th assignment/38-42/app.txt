@@ -1,0 +1,128 @@
+// Task: 3
+// var a=+ prompt("ENTER VALUE")
+// var b= +prompt("ENTER VALUE")
+// var c= +prompt("ENTER VALUE")
+
+// s = (a+b+c)/2;
+//  area = (s*(s-a)*(s-b)*(s-c));
+ 
+//  document.write(Math.sqrt(area))
+
+
+// task: 4
+// var a=+ prompt("ENTER VALUE")
+// var b=+ prompt("ENTER VALUE")
+// var c=+ prompt("ENTER VALUE")
+// var full=+ prompt("ENTER full marks")
+
+//  sum= a+b+ c
+//  average= sum/3
+
+ 
+//  percentage =(sum/300)*full;
+  
+//  document.write("AVERAGE: "+ average +"<br>")
+//  document.write("PERCENTAGE: "+percentage +"%")
+
+// Task: 5
+//  function myFunction() {
+  
+//     var fruits = ["Banana", "Orange", "Apple", "Mango"];
+//     var a = fruits.indexOf("Apple");
+//         alert(a)
+
+// }
+
+
+// task: 6
+
+// var string = "heelloo world";
+// var vowel = ["a", "e", "i", "o", "u"];
+
+// String.prototype.character = function name() {
+//     var i;
+//     for ( i = 0; i < vowel.length; i++) {
+//         var secondLoop = string.length;
+//         for ( j = 0; j < secondLoop; j++) {
+//             if (vowel[i] == string.charAt(j)) {
+//                 string = string.slice(0, j).concat(string.slice(j + 1, secondLoop));
+//                 j--;           // take the removed character into account
+//                 secondLoop--;  // string is now one character shorter
+//             }
+
+//         }
+//     }
+// }
+
+// string.character();
+// document.write(string);
+
+
+// Task: 7
+// function findOccurrences() {
+//     var str = "Pleases read this application and give me gratuity";
+//     var count = 0;
+//     let haveSeenVowel = false;
+  
+//     for (const letter of str.toLowerCase()) {
+//       switch (letter) {
+//         case 'a':
+//         case 'e':
+//         case 'i':
+//         case 'o':
+//         case 'u':
+//           {
+//             if (haveSeenVowel) {
+//               count++;
+//               haveSeenVowel = false;
+//             } else {
+//               haveSeenVowel = true;
+//             }
+//             break;
+//           }
+//         default:
+//           haveSeenVowel = false
+//       }
+//     }
+  
+//     return count
+//   }
+  
+//   document.write(findOccurrences());
+
+
+// Task: 8
+// var a = +prompt("enter the distance in km")
+
+
+// b = a * 1000;
+// c = b * 3.28;
+// d = c * 12;
+// f = d * 30;
+// document.write("DISTANCE IN METERs: "+ b +"m" +"<br>")
+// document.write("DISTANCE IN FEETS: "+ c +"feet" +"<br>")
+// document.write("DISTANCE IN INCHES: "+ d +"inches" +"<br>")
+// document.write("DISTANCE IN CENTIMETER: "+ f +"cm" +"<br>")
+
+// task: 9
+// var count=1
+// while(count<=10)
+//     {
+
+//         var working_hours = +prompt("Enter the working hours of employee")
+      
+    
+    
+//         if(working_hours>40)
+//         {
+//             over_time = working_hours - 40;
+//             over_time_pay = over_time * 12.00;
+//             document.write("Employee No "+count +"overtime pay is " +over_time_pay +"<br>")
+         
+//         }
+//         else
+//             document.write("You have to work for more than 40 hours to get over time pay" +"<br>");
+
+//         count++;
+//     }
+
